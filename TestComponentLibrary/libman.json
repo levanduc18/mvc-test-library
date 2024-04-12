@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "jsdelivr",
+      "library": "dlv-button@0.1.4",
+      "destination": "wwwroot/lib/dlv-button/",
+      "files": [
+        "dist/dlv-button.css",
+        "dist/dlv-button.min.css",
+        "dist/dlv-button.umd.min.js.map",
+        "dist/dlv-button.umd.min.js"
+      ]
+    },
+    {
+      "library": "vue@2.6.14",
+      "destination": "wwwroot/lib/vue/",
+      "files": [
+        "vue.min.js",
+        "vue.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "vue@2.6.14",
+      "destination": "wwwroot/lib/vue/",
+      "files": [
+        "vue.min.js",
+        "vue.js"
+      ]
+    }
+  ]
+}
