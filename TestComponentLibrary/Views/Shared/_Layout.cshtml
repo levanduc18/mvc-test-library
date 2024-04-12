@@ -34,7 +34,6 @@
     <div class="container">
         <main role="main" class="pb-3">
             <div id="app">
-                <vue-button>  {{message}}</vue-button>
             @RenderBody()
             </div>
         </main>
@@ -56,12 +55,12 @@
     <script>
         var app = new Vue({
             el: '#app',
-            data: {
-                message: 'Hello Vue!'
-            },
+
             components: {
-                "vue-button" : DLVButton.VueButton}
+                "vue-button" : DLVButton.VueButton
+            },
         });
+        
     </script>
 </body>
 </html>

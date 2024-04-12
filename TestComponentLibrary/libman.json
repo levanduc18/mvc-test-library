@@ -4,7 +4,7 @@
   "libraries": [
     {
       "provider": "jsdelivr",
-      "library": "dlv-button@0.1.4",
+      "library": "dlv-button@0.1.5",
       "destination": "wwwroot/lib/dlv-button/",
       "files": [
         "dist/dlv-button.css",
